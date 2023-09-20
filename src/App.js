@@ -23,6 +23,7 @@ function App() {
     <div className="App">
       <header className="App-header">
        <h1 className="title"> Rick y Morty</h1>
+       <h2 className='title'>Hecho por el Pikacolas</h2>
 
       {characters ? (
         <Characters characters={characters} setCharacters={setCharacters}/>
